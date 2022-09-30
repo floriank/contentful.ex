@@ -19,7 +19,7 @@ jobs:
         elixir: ['1.13', '1.12', '1.11', '1.10']
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/cache@v3.0.2
+    - uses: actions/cache@v3.0.9
       with:
         path: |
           deps
@@ -49,7 +49,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/cache@v3.0.2
+    - uses: actions/cache@v3.0.9
       with:
         path: |
           deps
